@@ -117,7 +117,7 @@ Walk Through Windows of Current Application Alternative=,,Walk Through Windows o
 Walk Through Windows of Current Application Alternative (Reverse)=,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=,,Keep Window Above Others
 Window Below Other Windows=,,Keep Window Below Others
-Window Close=Alt+F4\tMeta+Q,Alt+F4,Close Window
+Window Close=Alt+F4,Alt+F4,Close Window
 Window Fullscreen=,,Make Window Fullscreen
 Window Grow Horizontal=,,Expand Window Horizontally
 Window Grow Vertical=,,Expand Window Vertically
@@ -213,7 +213,7 @@ Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Incre
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
 Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,Increase Screen Brightness by 1%
 PowerDown=Power Down,Power Down,Power Down
-PowerOff=Power Off\tMeta+Shift+X\tMeta+X,Power Off,Power Off
+PowerOff=Power Off,Power Off,Power Off
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
@@ -238,7 +238,7 @@ clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=,,Next History Item
 cyclePrevAction=,,Previous History Item
-manage activities=none,Meta+Q,Show Activity Switcher
+manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 repeat_action=,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=,,Show Barcode…
@@ -247,21 +247,6 @@ stop current activity=Meta+S,Meta+S,Stop Current Activity
 switch to next activity=,,Switch to Next Activity
 switch to previous activity=,,Switch to Previous Activity
 toggle do not disturb=,,Toggle do not disturb
-
-[services][btop.desktop]
-_launch=Ctrl+Alt+End
-
-[services][org.kde.dolphin.desktop]
-_launch=Meta+E\tMeta+Shift+Return
-
-[services][org.kde.konsole.desktop]
-_launch=Ctrl+Alt+Return\tCtrl+Alt+T\tMeta+Return
-
-[services][org.kde.plasma-systemmonitor.desktop]
-_launch=Meta+Esc\tCtrl+Shift+Esc
-
-[services][systemsettings.desktop]
-kcm-kscreen=Ctrl+Alt+M
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
