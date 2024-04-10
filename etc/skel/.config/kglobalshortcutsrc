@@ -117,7 +117,7 @@ Walk Through Windows of Current Application Alternative=none,,Walk Through Windo
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
-Window Close=Meta+Q\tMeta+Shift+Q\tAlt+F4,Alt+F4,Close Window
+Window Close=Alt+F4\tMeta+Q\tMeta+Shift+Q,Alt+F4,Close Window
 Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -238,7 +238,7 @@ clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
-manage activities=Meta+Q,Meta+Q,Show Activity Switcher
+manage activities=none,Meta+Q,Show Activity Switcher
 next activity=Meta+A,none,Walk through activities
 previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
@@ -250,32 +250,20 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][btop.desktop]
-_launch=Ctrl+Alt+End
-
 [services][archlinux-tweak-tool.desktop]
 _launch=Ctrl+Alt+E
 
 [services][arcolinux-welcome-app.desktop]
 _launch=Ctrl+Alt+W
 
-[services][org.kde.dolphin.desktop]
-_launch=Meta+E\tMeta+Shift+Return
+[services][btop.desktop]
+_launch=Ctrl+Alt+End
 
-[services][org.kde.konsole.desktop]
-_launch=Ctrl+Alt+Return\tCtrl+Alt+T\tMeta+Return
+[services][chromium.desktop]
+_launch=Ctrl+Alt+G
 
-[services][org.kde.plasma-systemmonitor.desktop]
-_launch=Meta+Esc\tCtrl+Shift+Esc
-
-[services][systemsettings.desktop]
-kcm-kscreen=Ctrl+Alt+M
-
-services][spotify-2.desktop]
-_launch=Ctrl+Alt+S
-
-[services][spotify.desktop]
-_launch=Meta+F10
+[services][code.desktop]
+_launch=Meta+F2
 
 [services][firefox.desktop]
 _launch=Ctrl+Alt+F
@@ -286,29 +274,41 @@ _launch=Meta+F4
 [services][inkscape.desktop]
 _launch=Meta+F3
 
+[services][org.kde.dolphin.desktop]
+_launch=Meta+E\tMeta+Shift+Return
+
+[services][org.kde.konsole.desktop]
+_launch=Ctrl+Alt+Return\tCtrl+Alt+T\tMeta+Return
+
+[services][org.kde.krunner.desktop]
+RunClipboard=Meta+Shift+D\tAlt+Shift+F2
+
+[services][org.kde.plasma-systemmonitor.desktop]
+_launch=Meta+Esc\tCtrl+Shift+Esc
+
+[services][spotify.desktop]
+_launch=Meta+F10
+
+[services][systemsettings.desktop]
+_launch=Ctrl+Alt+S
+kcm-kscreen=Ctrl+Alt+M
+
 [services][thunar.desktop]
 _launch=Meta+F8
-
-[services][variety.desktop]
-_launch=Alt+T
 
 [services][variety-1.desktop]
 _launch=Alt+N
 
 [services][variety-2.desktop]
-_launch=Alt+P
+_launch=Alt+T
 
 [services][variety-3.desktop]
 _launch=Alt+F
 
-[services][chromium.desktop]
-_launch=Ctrl+Alt+G
-
-[services][code.desktop]
-_launch=Meta+F2
-
-[services][org.kde.krunner.desktop]
-RunClipboard=Meta+Shift+D\tAlt+Shift+F2
+[services][variety.desktop]
+Next=Alt+N
+PauseResume=Alt+M
+Previous=Alt+P
 
 [services][virtualbox.desktop]
 _launch=Meta+F7
