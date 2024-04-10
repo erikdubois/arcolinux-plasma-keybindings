@@ -18,7 +18,7 @@ Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta
 _k_friendly_name=Touchpad
 
 [kmix]
-_k_friendly_name=KMix
+_k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
 decrease_volume=Volume Down,Volume Down,Decrease Volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
@@ -31,7 +31,7 @@ mute=Volume Mute,Volume Mute,Mute
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
+Log Out=Ctrl+Alt+Del\tMeta+X\tMeta+Shift+X,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 Reboot=none,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
@@ -213,7 +213,7 @@ Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Incre
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
 Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,Increase Screen Brightness by 1%
 PowerDown=Power Down,Power Down,Power Down
-PowerOff=Power Off\tMeta+Shift+X\tMeta+X,Power Off,Power Off
+PowerOff=Power Off,Power Off,Power Off
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
@@ -232,13 +232,13 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
-activate widget 4=Alt+F1,none,Activate Application Launcher Widget
+activate widget 3=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
-manage activities=none,Meta+Q,Show Activity Switcher
+manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+A,none,Walk through activities
 previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
@@ -253,6 +253,12 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][btop.desktop]
 _launch=Ctrl+Alt+End
 
+[services][archlinux-tweak-tool.desktop]
+_launch=Ctrl+Alt+E
+
+[services][arcolinux-welcome-app.desktop]
+_launch=Ctrl+Alt+W
+
 [services][org.kde.dolphin.desktop]
 _launch=Meta+E\tMeta+Shift+Return
 
@@ -265,6 +271,51 @@ _launch=Meta+Esc\tCtrl+Shift+Esc
 [services][systemsettings.desktop]
 kcm-kscreen=Ctrl+Alt+M
 
+services][spotify-2.desktop]
+_launch=Ctrl+Alt+S
+
+[services][spotify.desktop]
+_launch=Meta+F10
+
+[services][firefox.desktop]
+_launch=Ctrl+Alt+F
+
+[services][gimp.desktop]
+_launch=Meta+F4
+
+[services][inkscape.desktop]
+_launch=Meta+F3
+
+[services][thunar.desktop]
+_launch=Meta+F8
+
+[services][variety.desktop]
+_launch=Alt+T
+
+[services][variety-1.desktop]
+_launch=Alt+N
+
+[services][variety-2.desktop]
+_launch=Alt+P
+
+[services][variety-3.desktop]
+_launch=Alt+F
+
+[services][chromium.desktop]
+_launch=Ctrl+Alt+G
+
+[services][code.desktop]
+_launch=Meta+F2
+
+[services][org.kde.krunner.desktop]
+RunClipboard=Meta+Shift+D\tAlt+Shift+F2
+
+[services][virtualbox.desktop]
+_launch=Meta+F7
+
+[services][vivaldi.desktop]
+_launch=Ctrl+Alt+V
+
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
 Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Map to screen 1
@@ -275,3 +326,7 @@ Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Toggle between all screens
 Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
 Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Wacom Tablet
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=F12,F12,Open/Retract Yakuake
