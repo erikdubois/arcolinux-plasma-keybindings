@@ -298,6 +298,7 @@ _launch=Meta+F10
 [services][systemsettings.desktop]
 _launch=Ctrl+Alt+S
 kcm-kscreen=Ctrl+Alt+M
+kcm-powerdevilprofilesconfig=Meta+Shift+E
 
 [services][thunar.desktop]
 _launch=Meta+F8
