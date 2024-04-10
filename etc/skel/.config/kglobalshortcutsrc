@@ -52,7 +52,7 @@ Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
 Move Tablet to Next Output=none,none,Move the tablet to the next output
-MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
+MoveMouseToCenter=none,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
@@ -253,6 +253,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][archlinux-tweak-tool.desktop]
 _launch=Ctrl+Alt+E
 
+[services][arcolinux-app-glade.desktop]
+_launch=Ctrl+Alt+H
+
 [services][arcolinux-welcome-app.desktop]
 _launch=Ctrl+Alt+W
 
@@ -272,6 +275,9 @@ _launch=Ctrl+Alt+F
 _launch=Meta+F4
 
 [services][inkscape.desktop]
+_launch=Meta+F3
+
+[services][org.inkscape.Inkscape.desktop]
 _launch=Meta+F3
 
 [services][org.kde.dolphin.desktop]
@@ -315,6 +321,9 @@ _launch=Meta+F7
 
 [services][vivaldi.desktop]
 _launch=Ctrl+Alt+V
+
+[services][vlc.desktop]
+_launch=Meta+F6
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
